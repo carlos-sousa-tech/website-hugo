@@ -4,10 +4,12 @@ when:
 
 steps:
   - name: docker-build
-    image: woodpeckerci/plugin-docker-buildx
-    privileged: true
-    environment:
-      dockerfile: ./Dockerfile
+    image: docker:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    commands:
+      - docker build -t test-build:latest .
+      - docker run --rm myapp:test echo "Build successful!"
     when:
       branch: develop
       event: [ push ]
