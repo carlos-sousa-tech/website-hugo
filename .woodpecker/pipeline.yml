@@ -1,0 +1,33 @@
+steps:
+  build:
+    image: plugins/docker
+    settings:
+      #registry: ${DOCKER_REGISTRY}
+      #username:
+      #  from_secret: docker_username
+      #password:
+      #  from_secret: docker_password
+      #repo: ${DOCKER_REGISTRY}/${DOCKER_IMAGE_NAME}
+      tags:
+        - latest
+        - ${CI_COMMIT_SHA:0:7}
+        - ${CI_COMMIT_BRANCH}
+      dockerfile: ./Dockerfile
+
+  #deploy:
+  #  image: appleboy/docker-ssh
+  #  settings:
+  #    host:
+  #      from_secret: deploy_host
+  #    username:
+  #      from_secret: deploy_user
+  #    key:
+  #      from_secret: deploy_key
+  #    script:
+  #      - cd /path/to/docker-compose
+  #      - docker compose pull
+  #      - docker compose up -d
+  #      - docker image prune -f
+  #  when:
+  #    branch: main
+  #    event: push
