@@ -5,6 +5,7 @@ when:
 steps:
   - name: docker-build
     image: woodpeckerci/plugin-docker-buildx
+    privileged: true
     environment:
       dockerfile: ./Dockerfile
     when:
