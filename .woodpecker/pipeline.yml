@@ -10,6 +10,7 @@ steps:
     commands:
       - docker build -t test-build:latest .
       - docker run --rm myapp:test echo "Build successful!"
+      - echo "hey!"
     when:
       branch: develop
       event: [ push ]
