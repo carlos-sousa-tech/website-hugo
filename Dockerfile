@@ -5,7 +5,7 @@ WORKDIR /src
 
 COPY . .
 
-RUN hugo --minify
+RUN hugo build
 
 # Runtime stage
 FROM nginx:alpine
