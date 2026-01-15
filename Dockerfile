@@ -1,5 +1,5 @@
 # Build stage
-FROM hugomods/hugo:debian-base-non-root-0.154 as builder
+FROM hugomods/hugo:debian-base-non-root-0.154.5 as builder
 WORKDIR /src
 
 COPY . .
