@@ -2,3 +2,32 @@ baseURL = 'https://carlossousa.tech'
 languageCode = 'en-us'
 title = 'Carlos Sousa'
 theme = 'csa-theme'
+
+
+[menus]
+    [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+    [[menus.main]]
+    name = 'Quotes'
+    pageRef = '/quotes'
+    weight = 20
+
+    [[menus.main]]
+    name = 'Tips'
+    pageRef = '/tips'
+    weight = 40
+
+    [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 30
+
+    [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 60
+
+

@@ -4,6 +4,17 @@ draft = false
 title = 'Home'
 +++
 
-# Welcome to my WebSite
+# Hello There!
 
-This is your homepage content.
+Welcome to my (Web)Portfolio!
+
+## About Me
+
+## Computers, Fluffy Clouds and Hosting
+
+## Projects
+
+
+## Skills & Competencies
+
+## Onĺine Presence
