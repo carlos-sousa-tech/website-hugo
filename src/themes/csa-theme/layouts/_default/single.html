@@ -1,8 +1,13 @@
 {{ define "main" }}
 <h2>{{ .Title }}</h2>
-<p>{{ .PublishDate }}</p>
+{{ if .PublishDate }}
+<p>Posted {{ time.Format "2th January, 2006" .PublishDate }}</p>
+{{ end }}
 {{ if .Params.Tags }}
-Tags: {{ partial "tags.html" . -}}
+<p>Tags: {{ partial "tags.html" . -}}</p>
+{{ end }}
+{{ if .Summary }}
+<p>Summary: {{ .Summary }}</p>
 {{ end }}
 <div>{{ .Content }}</div>
 {{ end }}
