@@ -17,4 +17,4 @@ Welcome to my (Web)Portfolio!
 
 ## Skills & Competencies
 
-## Onĺine Presence
+## Online Presence
