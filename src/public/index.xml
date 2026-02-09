@@ -9,23 +9,23 @@
     <lastBuildDate>Mon, 09 Feb 2026 21:02:15 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
-      <link>http://localhost:1313/posts/first/</link>
-      <pubDate>Mon, 09 Feb 2026 21:02:15 +0100</pubDate>
-      <guid>http://localhost:1313/posts/first/</guid>
-      <description>&lt;p&gt;Very first post!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Second</title>
+      <title>A Test Post</title>
       <link>http://localhost:1313/posts/second/</link>
       <pubDate>Mon, 09 Feb 2026 21:02:15 +0100</pubDate>
       <guid>http://localhost:1313/posts/second/</guid>
-      <description>&lt;p&gt;Very second post!&lt;/p&gt;</description>
+      <description>A test post</description>
+    </item>
+    <item>
+      <title>Hello World from HUGO</title>
+      <link>http://localhost:1313/posts/first/</link>
+      <pubDate>Mon, 09 Feb 2026 21:02:15 +0100</pubDate>
+      <guid>http://localhost:1313/posts/first/</guid>
+      <description>The very first post in HUGO!</description>
     </item>
     <item>
       <title>Quotes</title>
       <link>http://localhost:1313/notes/quotes/</link>
-      <pubDate>Mon, 09 Feb 2026 19:45:23 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/quotes/</guid>
       <description>&lt;p&gt;some quotes&lt;/p&gt;</description>
     </item>
