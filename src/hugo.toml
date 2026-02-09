@@ -11,14 +11,20 @@ theme = 'csa-theme'
     weight = 10
 
     [[menus.main]]
-    name = 'Notes'
-    pageRef = '/notes'
+    name = 'Pages'
+    pageRef = '/pages'
     weight = 20
 
     [[menus.main]]
-    parent = 'Notes'
+    parent = 'Pages'
     name = 'Quotes'
-    pageRef = '/notes/quotes'
+    pageRef = '/pages/quotes'
+    weight = 10
+
+    [[menus.main]]
+    parent = 'Pages'
+    name = 'Tips'
+    pageRef = '/pages/tips'
     weight = 10
 
     [[menus.main]]

@@ -1,2 +1,5 @@
 # ignore generated static website
 src/public
+
+# ignore boiler-theme
+src/themes/boiler-theme

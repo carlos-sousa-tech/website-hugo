@@ -1,13 +1,19 @@
 {{ define "main" }}
-<h2>{{ .Title }}</h2>
-{{ if .PublishDate }}
-<p>Posted {{ time.Format "2th January, 2006" .PublishDate }}</p>
-{{ end }}
-{{ if .Params.Tags }}
-<p>Tags: {{ partial "tags.html" . -}}</p>
-{{ end }}
-{{ if .Summary }}
-<p>Summary: {{ .Summary }}</p>
-{{ end }}
-<div>{{ .Content }}</div>
+<article class="main">
+  <header>
+    <h1>{{ .Title }}</h1>
+    <div class="post-meta">
+      {{ if .PublishDate }}
+      <span>{{ time.Format "January 2, 2006" .PublishDate }}</span>
+      {{ end }}
+      {{ if .Params.Tags }}
+      <span>{{ partial "tags.html" . -}}</span>
+      {{ end }}
+    </div>
+    {{ if .Summary }}
+    <p class="summary">{{ .Summary }}</p>
+    {{ end }}
+  </header>
+  <div class="content">{{ .Content }}</div>
+</article>
 {{ end }}
