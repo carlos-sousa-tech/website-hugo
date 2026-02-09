@@ -11,23 +11,32 @@ theme = 'csa-theme'
     weight = 10
 
     [[menus.main]]
-    name = 'Quotes'
-    pageRef = '/quotes'
+    name = 'Notes'
+    pageRef = '/notes'
     weight = 20
 
     [[menus.main]]
-    name = 'Tips'
-    pageRef = '/tips'
-    weight = 40
-
-    [[menus.main]]
-    name = 'Tags'
-    pageRef = '/tags'
-    weight = 30
+    parent = 'Notes'
+    name = 'Quotes'
+    pageRef = '/notes/quotes'
+    weight = 10
 
     [[menus.main]]
     name = 'Posts'
     pageRef = '/posts'
-    weight = 60
+    weight = 30
+
+    [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 40
+
+#    [[menus.main]]
+#    name = 'Tips'
+#    pageRef = '/tips'
+#    weight = 30
 
 
+[params]
+footer_text = "Carlos Sousa"
+footer_padding = true

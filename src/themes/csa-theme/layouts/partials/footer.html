@@ -1,0 +1,10 @@
+<div>
+    {{ .Site.Params.footer_text | default "Sample Footer" }}
+    © {{ now.Year }}
+</div>
+
+{{ if .Site.Params.footer_padding }}
+{{ range seq 1000 }}
+{{ end }}
+{{ end }}
+
