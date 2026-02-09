@@ -1,6 +1,6 @@
 when:
   branch: develop
-  event: [ push ]
+  event: [ push, manual ]
 
 steps:
   - name: docker-build
@@ -13,4 +13,4 @@ steps:
       - echo "hey!"
     when:
       branch: develop
-      event: [ push ]
+      event: [ push, manual ]

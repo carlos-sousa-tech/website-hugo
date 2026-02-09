@@ -1,0 +1,4 @@
+baseURL = 'https://carlossousa.tech'
+languageCode = 'en-us'
+title = 'Carlos Sousa'
+theme = 'csa-theme'
