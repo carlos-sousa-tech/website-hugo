@@ -4,7 +4,8 @@ WORKDIR /src
 
 COPY --chown=hugo:hugo ./src .
 
-RUN hugo build
+# Clean public folder and build
+RUN rm -rf public && hugo build
 
 # Runtime stage
 FROM nginx:alpine
