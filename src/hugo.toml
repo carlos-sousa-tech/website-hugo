@@ -11,26 +11,26 @@ theme = 'csa-theme'
     weight = 10
 
     [[menus.main]]
-    name = 'Pages'
-    pageRef = '/pages'
+    name = 'Quotes'
+    pageRef = '/quotes'
     weight = 20
 
-    [[menus.main]]
-    parent = 'Pages'
-    name = 'Quotes'
-    pageRef = '/pages/quotes'
-    weight = 10
+#    [[menus.main]]
+#    parent = 'Pages'
+#    name = 'Quotes'
+#    pageRef = '/quotes'
+#    weight = 10
 
-    [[menus.main]]
-    parent = 'Pages'
-    name = 'Tips'
-    pageRef = '/pages/tips'
-    weight = 10
+#    [[menus.main]]
+#    parent = 'Pages'
+#    name = 'Tips'
+#    pageRef = '/pages/tips'
+#    weight = 10
 
-    [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
-    weight = 30
+#    [[menus.main]]
+#    name = 'Posts'
+#    pageRef = '/posts'
+#    weight = 30
 
     [[menus.main]]
     name = 'Tags'
@@ -45,4 +45,4 @@ theme = 'csa-theme'
 
 [params]
 footer_text = "Carlos Sousa"
-footer_padding = true
+footer_contact = "contact@carlossousa.tech"

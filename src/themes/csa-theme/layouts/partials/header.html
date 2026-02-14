@@ -1,6 +1,9 @@
 <nav class="nav">
     <div class="nav-container">
-        <a href="{{ .Site.BaseURL }}" class="nav-brand">{{ .Site.Title }}</a>
+        <a href="{{ .Site.BaseURL }}" class="nav-brand">
+            <img src="{{ .Site.BaseURL }}favicon.png" alt="favicon" class="nav-favicon">
+            {{ .Site.Title }}
+        </a>
         <ul class="nav-menu">
             {{ range .Site.Menus.main }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>

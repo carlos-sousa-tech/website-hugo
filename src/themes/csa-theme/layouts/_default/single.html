@@ -7,7 +7,7 @@
       <span>{{ time.Format "January 2, 2006" .PublishDate }}</span>
       {{ end }}
       {{ if .Params.Tags }}
-      <span>{{ partial "tags.html" . -}}</span>
+      <span>Tags: {{ partial "tags.html" . -}}</span>
       {{ end }}
     </div>
     {{ if .Summary }}

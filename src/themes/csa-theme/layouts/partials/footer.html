@@ -1,10 +1,8 @@
 <div class="footer">
-    {{ .Site.Params.footer_text | default "Sample Footer" }}
-    © {{ now.Year }}
+    {{ if .Site.Params.footer_text }}
+        <br>{{ .Site.Params.footer_text }} © {{ now.Year }}
+    {{ end }}
+    {{ if .Site.Params.footer_contact }}
+        <br><a href="mailto:{{ .Site.Params.footer_contact }}">{{ .Site.Params.footer_contact }}
+    {{ end }}
 </div>
-
-{{ if .Site.Params.footer_padding }}
-{{ range seq 1000 }}
-{{ end }}
-{{ end }}
-

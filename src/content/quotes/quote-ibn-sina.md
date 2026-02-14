@@ -1,0 +1,7 @@
+---
+title: Tiger got to hunt
+author: Ibn Sina
+
+---
+
+> Tiger got to hunt, bird got to fly; Man got to sit and wonder 'why, why, why?' Tiger got to sleep, bird got to land; Man got to tell himself he understand.

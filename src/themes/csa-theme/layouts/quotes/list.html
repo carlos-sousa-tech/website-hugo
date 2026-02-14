@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  
+  <div class="quotes-container">
+    {{ range .Pages }}
+      <div class="quote">
+        {{ .Content }}
+        <p class="author">{{ .Params.author }}</p>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

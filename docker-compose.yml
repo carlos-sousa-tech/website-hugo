@@ -1,0 +1,16 @@
+services:
+  website:
+    build: .
+    container_name: website-csa-hugo
+    restart: unless-stopped
+    expose:
+      - 8080
+    networks:
+      - reverse_proxy_network
+
+
+      # Used in a reverse proxy setup
+networks:
+  reverse_proxy_network:
+    name: reverse_proxy_network
+    external: true

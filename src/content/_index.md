@@ -9,7 +9,7 @@ layout = 'home'
 
 # 👋 Hello There! 👋
 
-Welcome to my (Web)Portfolio!
+## Welcome to my (Web)Portfolio!
 
 ## 🧔 About Me 🧔
 
