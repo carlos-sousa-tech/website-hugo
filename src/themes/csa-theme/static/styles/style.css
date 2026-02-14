@@ -10,6 +10,7 @@
   --color-nav-bg: #333333;
   --color-shadow: rgba(0, 0, 0, 0.05);
   --color-shadow-hover: rgba(0, 0, 0, 0.1);
+  --max-width-content: 130ch;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,7 +41,16 @@ html, body {
 
 /* ===== Main Content ===== */
 .main {
-  max-width: 65ch;
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  line-height: 1.7;
+}
+
+
+/* ===== Main Content ===== */
+.footer {
+  max-width: var(--max-width-content);
   margin: 0 auto;
   padding: 2rem 1.5rem;
   line-height: 1.7;
