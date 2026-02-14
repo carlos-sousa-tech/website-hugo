@@ -1,7 +1,7 @@
 ---
-title: Frank Underwood
-author: Frank Underwood
+title: Henry Ford
+author: Henry Ford
 
 ---
 
-> Let me be clear. You are entitled to nothing.
+> Don't find fault, find a remedy; anybody can complain.
