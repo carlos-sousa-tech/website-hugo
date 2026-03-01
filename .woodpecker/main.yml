@@ -1,68 +1,80 @@
 when:
   branch:
     - main
-  event: [ push, manual]
+  event: [ push, manual ]
 
-env:
-  IMAGE_NAME: "website-csa-hugo"
-  IMAGE_TAG: "latest"
-  REMOTE_IMAGE_PATH: "/tmp/website-csa-hugo.tar"
-  DOCKER_COMPOSE_PATH: "/home/docker-user/docker-stack/website-hugo/docker-compose.yml"
-
-
-secrets:
-  - WEBSITE_HUGO_TARGET_SERVER
-  - WEBSITE_HUGO_TARGET_SERVER_USER
-  - WEBSITE_HUGO_TARGET_SERVER_SSH_KEY
 
 steps:
-  # Build Docker Image Locally
+  # Create vars to be used in multiple steps
+  - name: setup-environment-vars
+    image: bash
+    commands:
+      - echo "IMAGE_NAME=website-csa-hugo" >> envvars
+      - echo "IMAGE_TAG=latest" >> envvars
+      - echo "REMOTE_IMAGE_PATH=/tmp/website-csa-hugo.tar" >> envvars
+
   - name: docker-build
-    image: docker-latest
+    image: docker:latest
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     commands:
-      - echo "${IMAGE_NAME}"
-      - echo "${IMAGE_TAG}"
-      - docker build -t ${IMAGE_NAME}:${IMAGE_TAG} .
-      - echo "Image Built"
+      - source ./envvars
+      - docker build -t $IMAGE_NAME:$IMAGE_TAG .
+
 
   # Save the image to a tarball
   - name: save-image
-    image: alpíne:latest
+    image: docker:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /tmp/woodpecker-cicd:/tmp
     commands:
-      - docker save -o ${REMOTE_IMAGE_PATH} ${IMAGE_NAME}:${IMAGE_TAG}
+      - source ./envvars
+      - docker save -o $REMOTE_IMAGE_PATH $IMAGE_NAME:$IMAGE_TAG
+      - chmod -R 777 /tmp
+      - ls -lh /tmp
+      - whoami
       - echo "Image Saved"
+
 
   # Transfer tarball to target server
   - name: copy-image
-    image: appleboy/scp
-    secrets:
-      - WEBSITE_HUGO_TARGET_SERVER
-      - WEBSITE_HUGO_TARGET_SERVER_SSH_KEY
+    image: appleboy/drone-scp
+    volumes:
+      - /tmp/woodpecker-cicd:/woodpecker-cicd
     settings:
-      host: ${WEBSITE_HUGO_TARGET_SERVER}
-      key: ${WEBSITE_HUGO_TARGET_SERVER_SSH_KEY}
+      host:
+        from_secret: WEBSITE_HUGO_TARGET_SERVER
+      user:
+        from_secret: WEBSITE_HUGO_TARGET_SERVER_USER
+      key:
+        from_secret: WEBSITE_HUGO_TARGET_SERVER_SSH_KEY
       port: 22
-      source: ${REMOTE_IMAGE_PATH}
-      target: ${REMOTE_IMAGE_PATH}
-    commands:
-      - echo "Image transferred."
+      source: /woodpecker-cicd
+      target: /tmp
 
-#  # Load Image and restart container on target server
-#  - name: deploy-on-server
-#    image: appleboy/ssh
-#    secrets:
-#      - WEBSITE_HUGO_TARGET_SERVER
-#      - WEBSITE_HUGO_TARGET_SERVER_USER
-#      - WEBSITE_HUGO_TARGET_SERVER_SSH_KEY
-#    settings:
-#      host: ${WEBSITE_HUGO_TARGET_SERVER}
-#      key: ${WEBSITE_HUGO_TARGET_SERVER_SSH_KEY}
-#      port: 22
-#    commands:
-#      - >
-#        ssh -o StrictHostKeyChecking=no -i /tmp/ssh_key ${WEBSITE_HUGO_TARGET_SERVER_USER}@${WEBSITE_HUGO_TARGET_SERVER} << EOF
-#        docker load -i ${REMOTE_IMAGE_PATH}
-#        docker-compose -f ${DOCKER_COMPOSE_PATH} up -d
-#        EOF
+
+
+  # Load Image and restart container on target server
+  - name: deploy-on-server
+    image: appleboy/drone-ssh
+    settings:
+      host:
+        from_secret: WEBSITE_HUGO_TARGET_SERVER
+      username:
+        from_secret: WEBSITE_HUGO_TARGET_SERVER_USER
+      key:
+        from_secret: WEBSITE_HUGO_TARGET_SERVER_SSH_KEY
+      port: 22
+      script:
+        - docker load -i /tmp/woodpecker-cicd/website-csa-hugo.tar
+        - docker compose -f /home/docker-user/docker-stack/website-hugo/docker-compose.yml down
+        - docker compose -f /home/docker-user/docker-stack/website-hugo/docker-compose.yml up -d
+        - rm -rf /tmp/woodpecker-cicd
+
+  - name: cleanup
+    image: bash
+    volumes:
+      - /tmp/woodpecker-cicd:/tmp
+    commands:
+      - rm -rf /tmp/*
