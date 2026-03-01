@@ -1,3 +1,3 @@
 {{ range .Params.tags }}
-  <a href="{{ add (relURL `tags/`) (.) }}">{{ . }}</a>
+  <a href="{{ relURL (printf "tags/%s/" .) }}">{{ . }}</a>
 {{ end }}
