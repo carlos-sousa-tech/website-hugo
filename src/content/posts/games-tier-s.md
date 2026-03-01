@@ -494,24 +494,7 @@ toc = true
 
 >
 
-## Portal
-
-**Type:**
-
->
-
-**Description:**
-
->
-
-**Quick Review:**
->
-
-**Last Played:**
-
->
-
-## Portal 2
+## Portal + Portal 2 
 
 **Type:**
 
@@ -545,7 +528,7 @@ toc = true
 
 >
 
-## Renegeade Ops
+## Renegade Ops
 
 **Type:**
 
@@ -651,24 +634,7 @@ toc = true
 
 >
 
-## Civilization V
-
-**Type:**
-
->
-
-**Description:**
-
->
-
-**Quick Review:**
->
-
-**Last Played:**
-
->
-
-## Civiliation VI
+## Civilization V + VI
 
 **Type:**
 
@@ -867,24 +833,7 @@ toc = true
 
 >
 
-## The Walking Dead
-
-**Type:**
-
->
-
-**Description:**
-
->
-
-**Quick Review:**
->
-
-**Last Played:**
-
->
-
-## The Walking Dead Season 2
+## The Walking Dead (Season 1 + Season 2)
 
 **Type:**
 
@@ -952,24 +901,7 @@ toc = true
 
 >
 
-## XCom Enemy Unknown
-
-**Type:**
-
->
-
-**Description:**
-
->
-
-**Quick Review:**
->
-
-**Last Played:**
-
->
-
-## XCom 2
+## XCOM Enemy Unknown + XCOM 2
 
 **Type:**
 
