@@ -1,6 +1,9 @@
 services:
   website:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: website-csa-hugo:latest
     container_name: website-csa-hugo
     restart: unless-stopped
     expose:
@@ -8,8 +11,6 @@ services:
     networks:
       - reverse_proxy_network
 
-
-      # Used in a reverse proxy setup
 networks:
   reverse_proxy_network:
     name: reverse_proxy_network

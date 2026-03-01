@@ -12,3 +12,11 @@ Live Version can be seen at [carlossousa.tech](https://carlossousa.tech)
 - [Woodpecker](https://woodpecker-ci.org/) for the CI/CD pipelines
 
 - [Docker](https://www.docker.com/)(-compose) for Deployment
+
+## Development
+
+1. Install HUGO locally via your package manager 
+
+2. Start the development server
+
+- `hugo server DF --noHTTPCache`
