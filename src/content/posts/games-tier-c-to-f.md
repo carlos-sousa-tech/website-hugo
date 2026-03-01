@@ -3,7 +3,7 @@ date = '2026-02-09T21:02:15+01:00'
 draft = false
 title = 'Games Tier C-F - Okay / Average or below'
 summary = "List of games that I consider to be below average or good. Not bad per say, just probably not worth putting too much of your income in them."
-tags = ["games", "media tier c to f"]
+tags = ["gaming", "media-tier-c-to-f"]
 toc = true
 +++
 

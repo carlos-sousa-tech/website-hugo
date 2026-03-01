@@ -3,7 +3,7 @@ date = '2026-02-09T21:02:15+01:00'
 draft = false
 title = 'Games Tier A - Great Tier'
 summary = "List of games that I consider to be Great or Fantastic. An easy recommendation, but you might skip one or the other if you don't enjoy the genre in general."
-tags = ["games", "media tier a"]
+tags = ["gaming", "media-tier-a"]
 toc = true
 +++
 

@@ -3,7 +3,7 @@ date = '2026-02-09T21:02:15+01:00'
 draft = false
 title = 'Games Tier B - Good Tier / Above Average'
 summary = "List of games that I consider to be above average or good. Still good games to be enjoyed, but either time wasn't good for them, the 'fun-mechanic' gets old before the game ends, 2/3 of the game is grteat but drops the ball later on and similar."
-tags = ["games", "media tier b"]
+tags = ["gaming", "media-tier-b"]
 toc = true
 +++
 

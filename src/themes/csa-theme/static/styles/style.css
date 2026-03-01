@@ -112,13 +112,11 @@ a:hover {
 .content-list {
   margin-bottom: 1.2rem;
   padding-left: 0;
-  max-width: 60%;
-  width: 100%;
-  list-style: none;
-  
+  max-width: var(--max-width-content);
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
 }
 
 
@@ -286,6 +284,8 @@ hr {
   background-color: var(--color-bg-secondary);
   transition: all 0.3s ease;
   box-shadow: 0 2px 4px var(--color-shadow);
+  max-width: 300px;
+  min-width: 100px;
 }
 
 .list-item:hover {

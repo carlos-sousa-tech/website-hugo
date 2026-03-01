@@ -3,7 +3,7 @@ date = '2026-02-09T21:02:15+01:00'
 draft = false
 title = 'Games Tier S - Godlike Tier'
 summary = 'List of games that I consider to be Godtier / Masterpieces and everyone should try them'
-tags = ["games", "media tier s"]
+tags = ["gaming", "media-tier-s"]
 toc = true
 +++
 
