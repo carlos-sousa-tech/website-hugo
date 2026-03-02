@@ -17,6 +17,6 @@ Live Version can be seen at [carlossousa.tech](https://carlossousa.tech)
 
 1. Install HUGO locally via your package manager 
 
-2. Start the development server
+2. Start the development server, showing Drafts `-DF` and avoiding HTTP Caches `--noHTTPCache`
 
-- `hugo server DF --noHTTPCache`
+- `hugo server -DF --noHTTPCache`
