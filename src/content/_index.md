@@ -38,7 +38,8 @@ Let's begin with one of the most useful projects - a Status Page. This [Gatus](h
 
 - ⌨️ [Lily58 Pro Keyboard](https://wiki.carlossousa.tech/doku.php?id=engineering:computer_science:projects:lily58_pro_diy_custom_keyboard) ⌨️
 
-As a hardware and software enthusiast, I've built two Lily58 Pro Keyboard - a wired version for home use and a wireless one for work. The [QMK and ZMK Firmware](https://github.com/carlos-sousa-tech/lily58_keyboard) is available for those interested in creating their own Lily 58 Pro Keyboard variant.
+As a hardware and software enthusiast, I've [built two Lily58 Pro Keyboard]({{< relref "posts/keyboard-lily58-build-guide.md" >}}) - a wired version for home use and a wireless one for work. The [QMK and ZMK Firmware](https://github.com/carlos-sousa-tech/lily58_keyboard) is available for those interested in creating their own Lily 58 Pro Keyboard variant.
+
 
 - 🗺️ [Travel Tracer](https://travel.carlossousa.tech/) 🗺️
 
@@ -81,7 +82,8 @@ A ready-to-use LAMP stack in Docker
 
 Files used to generate Firmware for a Lily58 Pro / Lily58 Pro Wireless
 
-You can also check [the post on the building guide](/posts/keyboard-lily58-build-guide).
+You can also check [the post on the building guide]({{< relref "posts/keyboard-lily58-build-guide.md" >}}).
+
 
 - 🏠 [HomeLab](https://github.com/carlos-sousa-tech/homelab) 🏠
 
