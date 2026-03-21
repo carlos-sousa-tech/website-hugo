@@ -262,7 +262,7 @@ You might already have this laying around if it's not your first electronic proj
 
 **Model / Details:**     | **Brought At:**     
 
-**Purpose:** Holding Components in Place  <br>Briding components for testing 
+**Purpose:** Holding Components in Place & Briding components for testing 
 
 **Remarks:**    
 

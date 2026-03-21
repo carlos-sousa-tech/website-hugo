@@ -141,9 +141,11 @@ toc = true
 >
 >The first boss is the Main Menu song. The second is the feels. 
 >
->Now, don't get me wrong, is not as the story is something that was never made before. But man, did they pull a great way to tell it.  <br>The world building is fantastic, the story is easy to grasp but there are so many little details that make it feel like a real world, the OST is just a MASTERPIECE, the combat is a great mix of Turn Based but still with Quick Time Events - hear me out, in this genre they are a very good thing -, so you will blast though the game and be a "little" sad when it comes to the end. 
+>Now, don't get me wrong, is not as the story is something that was never made before. But man, did they pull a great way to tell it.
+> The world building is fantastic, the story is easy to grasp but there are so many little details that make it feel like a real world, the OST is just a MASTERPIECE, the combat is a great mix of Turn Based but still with Quick Time Events - hear me out, in this genre they are a very good thing -, so you will blast though the game and be a "little" sad when it comes to the end. 
 >
->The gameplay, the graphics, the OST, the sound effects, the story, **everything**, what a masterpiece.  <br>I can't recommend this game enough and it makes an easy entry into the Tier S. 
+> The gameplay, the graphics, the OST, the sound effects, the story, **everything**, what a masterpiece.
+> I can't recommend this game enough and it makes an easy entry into the Tier S. 
 >
 >Just buy it, and enjoy one of the best games - as a complete package - with a turn based system that you can think of. 
 >
@@ -306,9 +308,13 @@ toc = true
 **Quick Review:**
 > What an amazing game. 
 >
->Think of Hotline Miami, but as a Ninja with some "time" mechanics.  <br>The sound design / OST is amazing, the pixel art is great, the controls are top notch, the mechanics are simple but don't get old and the gameplay / gameloop is just **amazing**. 
+>Think of Hotline Miami, but as a Ninja with some "time" mechanics.
 >
->The story does seem to be deep / to go deeper, but sadly the game doesn't have an ending yet story wise, so have that in mind.  <br>Either way it is an amazing experience, that should take just a few hours (2-6) to end but a lot more to master. 
+> The sound design / OST is amazing, the pixel art is great, the controls are top notch, the mechanics are simple but don't get old and the gameplay / gameloop is just **amazing**. 
+>
+>The story does seem to be deep / to go deeper, but sadly the game doesn't have an ending yet story wise, so have that in mind.
+>
+> Either way it is an amazing experience, that should take just a few hours (2-6) to end but a lot more to master. 
 >
 >Would highly recommend it if you enjoy games like Hotline Miami, Mr. Shifter or similar.
 
@@ -344,7 +350,11 @@ toc = true
 > Lies of P is a thrilling soulslike that takes the story of Pinocchio, turns it on its head, and sets it against the darkly elegant backdrop of the Belle Epoque era.
 
 **Quick Review:**
-> What a **great** game!  <br>Either you enjoyed Dark Souls - and other souls-like games - or you didn't, you owe it to yourself to at least try Lies of P.  <br>It's like if Bloodborne and Dark Souls (and a bit of Sekiro) had a magnificent baby with it's own character and personality. 
+> What a **great** game!
+>
+> Either you enjoyed Dark Souls - and other souls-like games - or you didn't, you owe it to yourself to at least try Lies of P.
+>
+> It's like if Bloodborne and Dark Souls (and a bit of Sekiro) had a magnificent baby with it's own character and personality. 
 >
 >From a great combat system, stellar Music, amazing graphics, amazing boss fights, - actual - story, gameplay and game feel, this is one of the best soul-like games out there, I would dare to say, even better that many of the games from FromSoftware (Ultrawide support, unlocked FPS, amazing hit detection boxes, again, an actual story delivery). 
 >
@@ -558,7 +568,9 @@ toc = true
 **Quick Review:**
 > One of those games I wish I could forget and play again for the first time. 
 >
->Solving all the questions the game will put your way, deducting who what and when is just an amazing experience.  <br>Stellar sound design, amazing puzzles, even if sometimes there is things that you might not find very enjoyable due to the general pace of the game or art design. 
+>Solving all the questions the game will put your way, deducting who what and when is just an amazing experience.
+>
+> Stellar sound design, amazing puzzles, even if sometimes there is things that you might not find very enjoyable due to the general pace of the game or art design. 
 >
 >Either way, you will still have a blast finding out what happened in the Obra Dinn and you will, most probably, regret you can only experience it, truly, once.
 
