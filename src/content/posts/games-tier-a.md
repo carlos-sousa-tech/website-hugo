@@ -1,5 +1,5 @@
 +++
-date = '2026-02-09T21:02:15+01:00'
+date = '2026-04-16T23:24:15+01:00'
 draft = false
 title = 'Games Tier A - Great Tier'
 summary = "List of games that I consider to be Great or Fantastic. An easy recommendation, but you might skip one or the other if you don't enjoy the genre in general."
@@ -176,6 +176,35 @@ toc = true
 **Last Played:**
 
 >
+
+
+## Chroma Squad
+
+**Type:**
+
+> Tactical, RPG, Strategy
+
+**Description:**
+
+> Tactical RPG about 5 stunt actors who decide to quit their jobs and start their own Power Rangers-inspired TV show! Cast actors, upgrade your studio, craft Mechas of cardboard and duct tape. Once the cameras are rolling, control your cast of 5 colored-jumpsuit-clad warriors in turn-based battles.
+
+**Quick Review:**
+> A very good game and an easy recommendation.
+> 
+> Power-Ranger-like your way though a very nice grid based strategy game ala XCOM mechanics.
+> 
+> Even if you are not into Power Rangers or that entire "genre", you probably will still have a great time with the combat, the meta gameplay, the RPG mechanics, crafting and everything else the game has to offer.
+> 
+> If you want to read the story, while nothing that will blow your mind, there are very much - and funny - pop culture references and comedy overall.
+> 
+> About 35-50 hours for 100% archievements.
+> 
+> An easy Tier A: a great game, easy to recommend.
+
+**Last Played:**
+
+> 05/2026
+
 
 ## Commandos: Beyond The Call of Duty
 

@@ -41,7 +41,9 @@ toc = true
 
 **Quick Review:**
 
-> \+ Amazing art direction  <br>\+ Amazing soundtrack 
+> +++ Amazing art direction 
+>
+> +++ Amazing soundtrack 
 
 **Times Watched:**
 
@@ -85,7 +87,9 @@ toc = true
 
 **Quick Review:**
 
-> \+ A Disney Princess like story  <br>\- A Disney Princess like story 
+> +++ A Disney Princess like story
+>
+> --- A Disney Princess like story 
 
 **Times Watched:**
 
