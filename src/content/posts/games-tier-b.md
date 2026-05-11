@@ -687,6 +687,32 @@ toc = true
 
 >
 
+## Nordhold
+
+**Type:**
+
+> Tower Defense, Roguelite
+
+**Description:**
+
+> Enemies are coming! Every decision matters: build your city, grow the economy, and prepare for enemy waves. Strengthen your defenses, adapt your strategy, and unleash your hero’s full potential. This unique Tower Defense will test your skills – are you worthy to claim a place at Valhalla?
+
+**Quick Review:**
+> A very "simple" but nice Tower Defense Game.
+> 
+> Now, not the best balanced game, but the combinations are fun to find out, even if eventually you will probably end finding and sticking to a specific path.
+> 
+> Not much to say to be fair. Not Great, but not Bad - if you enjoy Tower Defense Games, even more if you also enjoy some meta progression, give it a try.
+> 
+> Around 20 hours to 100%, but you can spend many more hours doing all challenges (ascension) and online leaderboards.
+> 
+> A Solid Tier B: Good.
+
+**Last Played:**
+
+> 06/2026
+
+
 ## Plague Tale: Innocence (A)
 
 **Type:**
