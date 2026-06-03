@@ -31,6 +31,36 @@ toc = true
 **Last Played:**
 > 08/2025
 
+## One Military Camp
+
+**Type:**
+
+> Management, Base Building
+
+**Description:**
+
+> Build your own military camp, manage the economy, recruit the best candidates and train them to become elite specialists. Send them on missions across the land to end the war once and for all!
+
+**Quick Review:**
+
+> So, a harder one, but let's say it's "okay ig".
+> 
+> The gameplay is very simple and VERY repetitive, and it very quickly turns from "I'm building a base" to "I'm micromanaging everything, how long until I can automate it via research".
+> 
+> Once you've seen the campaign (actually, just a few hours in) you will have seen all the game has to offer.
+> 
+> So, "ideal gameplay" seems to be to get researchers, get the production, automate the money making, and then just let the game run a while until soldiers are trained, rush missions, repeat.
+> 
+> Meaning, the base building besides simplistic there is no proper "strategy" to improve and the rest is just waiting.
+> 
+> Not the best game I've played.
+> 
+> Unless you want something very simplistic more akin to a "idle farmer", better skip this one.
+
+
+**Last Played:**
+> 06/2026
+
 ## Serial Cleaner
 
 **Type:**
