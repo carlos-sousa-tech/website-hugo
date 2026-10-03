@@ -7,6 +7,30 @@ tags = ["movies", "media-tier-a"]
 toc = true
 +++
 
+
+## 2001: Space Odyssey
+
+**Type:**
+
+> Sci-Fi Adventure Epic
+
+**Description:**
+
+> When a mysterious artifact is uncovered on the Moon, a spacecraft manned by two scientists and one supercomputer is dispatched to Jupiter to find its origins.
+
+**Quick Review:**
+
+>     
+
+**Times Watched:**
+
+> 2
+
+**Last Watched:**
+
+> 09/2026
+
+
 ## 500 Days of Summer 
 
 **Type:**
@@ -73,6 +97,50 @@ toc = true
 
 > 04/2025
 
+## Blade Runner 2049
+
+**Type:**
+
+> Sci Fi Thriller
+
+**Description:**
+
+> Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.
+
+**Quick Review:**
+
+>     
+
+**Times Watched:**
+
+> 2 
+
+**Last Watched:**
+
+> 09/2026
+
+## Casino
+
+**Type:**
+
+> Gangster Epic
+
+**Description:**
+
+> In Las Vegas, two best friends--a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite.
+
+**Quick Review:**
+
+>     
+
+**Times Watched:**
+
+> 2 
+
+**Last Watched:**
+
+> 09/2026
+
 ## Eternal Sunshine of the Spotless Mind 
 
 **Type:**
@@ -95,6 +163,30 @@ toc = true
 
 > 04/2025
 
+
+## Everything, Everywhere, All At Once
+
+**Type:**
+
+> Fantasy Epic
+
+**Description:**
+
+> A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.
+
+**Quick Review:**
+
+>     
+
+**Times Watched:**
+
+> 2
+
+**Last Watched:**
+
+> 09/2026
+
+
 ## Ex Machina 
 
 **Type:**
@@ -116,6 +208,29 @@ toc = true
 **Last Watched:**
 
 > 05/2023
+
+## Godfather (Part II)
+
+**Type:**
+
+> Epic Crime Drama 
+
+**Description:**
+
+> The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.
+
+**Quick Review:**
+
+>      
+
+**Times Watched:**
+
+> 2
+
+**Last Watched:**
+
+> 09/2026
+
 
 ## Handmaiden (The) 
 
@@ -226,6 +341,28 @@ toc = true
 **Last Watched:**
 
 > 09/2021
+
+## Snatch
+
+**Type:**
+
+> Dark Comedy
+
+**Description:**
+
+> Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.
+
+**Quick Review:**
+
+>     
+
+**Times Watched:**
+
+> 2
+
+**Last Watched:**
+
+> 09/2026
 
 ## Tropa de Elite (Elite Squad) 
 

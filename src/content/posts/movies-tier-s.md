@@ -28,6 +28,53 @@ toc = true
 
 > 11/2023
 
+## Godfather (Part I)
+
+**Type:**
+
+> Epic Crime Drama 
+
+**Description:**
+
+> The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+
+**Quick Review:**
+
+>      
+
+**Times Watched:**
+
+> 3
+
+**Last Watched:**
+
+> 10/2026
+
+
+## Gone Girl
+
+**Type:**
+
+> Psychological Thriller
+
+**Description:**
+
+> The husband of a missing woman becomes the main suspect in her disappearance.
+
+**Quick Review:**
+
+>      
+
+**Times Watched:**
+
+> 3
+
+**Last Watched:**
+
+> 10/2026
+
+
+
 
 ## Harry Potter (Saga) 
 
@@ -63,7 +110,7 @@ toc = true
 
 **Quick Review:**
 
->      
+> 
 
 **Times Watched:**
 
@@ -72,6 +119,30 @@ toc = true
 **Last Watched:**
 
 > 07/2024
+
+
+## Kill Bill (Part I + Part II)
+
+**Type:**
+
+> Martial Arts Thriller
+
+**Description:**
+
+> After waking from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.
+
+**Quick Review:**
+
+> 
+
+**Times Watched:**
+
+> 2
+
+**Last Watched:**
+
+> 09/2026
+
 
 ## Lord of the Rings (Trilogy) 
 
@@ -117,6 +188,28 @@ toc = true
 
 > 12/2025
 
+## Obsession
+
+**Type:**
+
+> Horror
+
+**Description:**
+
+> After breaking the mysterious "One Wish Willow" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.
+
+**Quick Review:**
+
+>  
+
+**Times Watched:**
+
+> 2
+
+**Last Watched:**
+
+> 09/2026
+
 ## Oldboy 
 
 **Type:**
@@ -160,6 +253,30 @@ toc = true
 **Last Watched:**
 
 > 10/2021
+
+## Misery
+
+**Type:**
+
+> Thriller
+
+**Description:**
+
+> After a famous author is rescued from a car crash by a fan of his novels, he comes to realize that the care he is receiving is only the beginning of a nightmare of captivity and abuse.
+
+**Quick Review:**
+
+>      
+
+**Times Watched:**
+
+> 2   
+
+**Last Watched:**
+
+> 09/2026
+
+
 
 ## Prestige (The) 
 
